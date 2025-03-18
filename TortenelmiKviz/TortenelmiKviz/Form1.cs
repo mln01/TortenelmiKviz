@@ -1,10 +1,11 @@
 namespace TortenelmiKviz
 {
-    public partial class tortenelmiKvízFooldal : Form
+    public partial class tortenelmiKvízMain : Form
     {
-        public tortenelmiKvízFooldal()
+        public tortenelmiKvízMain()
         {
             InitializeComponent();
         }
+
     }
 }
