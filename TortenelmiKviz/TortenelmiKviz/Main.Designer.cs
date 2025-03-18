@@ -37,6 +37,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 42F, FontStyle.Bold, GraphicsUnit.Point, 238);
             label1.Location = new Point(32, 27);
@@ -48,6 +49,8 @@
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.None;
+            button1.AutoSize = true;
             button1.Location = new Point(75, 121);
             button1.Name = "button1";
             button1.Size = new Size(340, 48);
@@ -57,6 +60,8 @@
             // 
             // button2
             // 
+            button2.Anchor = AnchorStyles.None;
+            button2.AutoSize = true;
             button2.Location = new Point(75, 177);
             button2.Name = "button2";
             button2.Size = new Size(340, 48);
@@ -66,6 +71,8 @@
             // 
             // button3
             // 
+            button3.Anchor = AnchorStyles.None;
+            button3.AutoSize = true;
             button3.Location = new Point(75, 233);
             button3.Name = "button3";
             button3.Size = new Size(340, 48);
@@ -75,6 +82,8 @@
             // 
             // ButtonKakukktojas
             // 
+            ButtonKakukktojas.Anchor = AnchorStyles.None;
+            ButtonKakukktojas.AutoSize = true;
             ButtonKakukktojas.Location = new Point(75, 289);
             ButtonKakukktojas.Name = "ButtonKakukktojas";
             ButtonKakukktojas.Size = new Size(340, 48);
@@ -95,7 +104,7 @@
             Controls.Add(button1);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             MinimumSize = new Size(500, 420);
             Name = "tortenelmiKvízMain";
             StartPosition = FormStartPosition.CenterScreen;

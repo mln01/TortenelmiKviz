@@ -35,9 +35,10 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 36F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            label1.Location = new Point(51, 28);
+            label1.Location = new Point(46, 26);
             label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
             label1.Size = new Size(290, 65);
@@ -47,7 +48,8 @@
             // 
             // buttonVissza
             // 
-            buttonVissza.Location = new Point(30, 294);
+            buttonVissza.Anchor = AnchorStyles.None;
+            buttonVissza.Location = new Point(25, 292);
             buttonVissza.Name = "buttonVissza";
             buttonVissza.Size = new Size(340, 48);
             buttonVissza.TabIndex = 7;
@@ -57,7 +59,8 @@
             // 
             // buttonABuvosHetesSzam
             // 
-            buttonABuvosHetesSzam.Location = new Point(30, 107);
+            buttonABuvosHetesSzam.Anchor = AnchorStyles.None;
+            buttonABuvosHetesSzam.Location = new Point(25, 105);
             buttonABuvosHetesSzam.Name = "buttonABuvosHetesSzam";
             buttonABuvosHetesSzam.Size = new Size(340, 48);
             buttonABuvosHetesSzam.TabIndex = 8;
@@ -69,12 +72,13 @@
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(395, 364);
+            ClientSize = new Size(384, 361);
             Controls.Add(buttonABuvosHetesSzam);
             Controls.Add(buttonVissza);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
             Margin = new Padding(5);
+            MinimumSize = new Size(400, 400);
             Name = "tortenelmiKvizKakukktojas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Történelmi Kvíz - Kakukktojás";

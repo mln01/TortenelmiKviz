@@ -48,9 +48,10 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            label1.Location = new Point(12, 17);
+            label1.Location = new Point(14, 13);
             label1.Name = "label1";
             label1.Size = new Size(237, 32);
             label1.TabIndex = 0;
@@ -58,8 +59,9 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.Location = new Point(12, 61);
+            label2.Location = new Point(14, 57);
             label2.Name = "label2";
             label2.Size = new Size(517, 150);
             label2.TabIndex = 1;
@@ -67,6 +69,7 @@
             // 
             // choicesGroupBox
             // 
+            choicesGroupBox.Anchor = AnchorStyles.None;
             choicesGroupBox.Controls.Add(choiceRadioButton6);
             choicesGroupBox.Controls.Add(choiceRadioButton7);
             choicesGroupBox.Controls.Add(choiceRadioButton5);
@@ -74,7 +77,7 @@
             choicesGroupBox.Controls.Add(choiceRadioButton3);
             choicesGroupBox.Controls.Add(choiceRadioButton2);
             choicesGroupBox.Controls.Add(choiceRadioButton1);
-            choicesGroupBox.Location = new Point(13, 203);
+            choicesGroupBox.Location = new Point(15, 199);
             choicesGroupBox.Name = "choicesGroupBox";
             choicesGroupBox.Size = new Size(511, 290);
             choicesGroupBox.TabIndex = 2;
@@ -83,6 +86,7 @@
             // 
             // choiceRadioButton6
             // 
+            choiceRadioButton6.Anchor = AnchorStyles.None;
             choiceRadioButton6.AutoSize = true;
             choiceRadioButton6.Location = new Point(19, 207);
             choiceRadioButton6.Name = "choiceRadioButton6";
@@ -94,6 +98,7 @@
             // 
             // choiceRadioButton7
             // 
+            choiceRadioButton7.Anchor = AnchorStyles.None;
             choiceRadioButton7.AutoSize = true;
             choiceRadioButton7.Location = new Point(19, 242);
             choiceRadioButton7.Name = "choiceRadioButton7";
@@ -104,6 +109,7 @@
             // 
             // choiceRadioButton5
             // 
+            choiceRadioButton5.Anchor = AnchorStyles.None;
             choiceRadioButton5.AutoSize = true;
             choiceRadioButton5.Location = new Point(19, 172);
             choiceRadioButton5.Name = "choiceRadioButton5";
@@ -115,6 +121,7 @@
             // 
             // choiceRadioButton4
             // 
+            choiceRadioButton4.Anchor = AnchorStyles.None;
             choiceRadioButton4.AutoSize = true;
             choiceRadioButton4.Location = new Point(19, 137);
             choiceRadioButton4.Name = "choiceRadioButton4";
@@ -126,6 +133,7 @@
             // 
             // choiceRadioButton3
             // 
+            choiceRadioButton3.Anchor = AnchorStyles.None;
             choiceRadioButton3.AutoSize = true;
             choiceRadioButton3.Location = new Point(19, 102);
             choiceRadioButton3.Name = "choiceRadioButton3";
@@ -137,6 +145,7 @@
             // 
             // choiceRadioButton2
             // 
+            choiceRadioButton2.Anchor = AnchorStyles.None;
             choiceRadioButton2.AutoSize = true;
             choiceRadioButton2.Location = new Point(19, 67);
             choiceRadioButton2.Name = "choiceRadioButton2";
@@ -148,6 +157,7 @@
             // 
             // choiceRadioButton1
             // 
+            choiceRadioButton1.Anchor = AnchorStyles.None;
             choiceRadioButton1.AutoSize = true;
             choiceRadioButton1.Location = new Point(19, 32);
             choiceRadioButton1.Name = "choiceRadioButton1";
@@ -159,7 +169,8 @@
             // 
             // nextButton
             // 
-            nextButton.Location = new Point(403, 516);
+            nextButton.Anchor = AnchorStyles.None;
+            nextButton.Location = new Point(405, 512);
             nextButton.Name = "nextButton";
             nextButton.Size = new Size(121, 32);
             nextButton.TabIndex = 3;
@@ -169,7 +180,8 @@
             // 
             // retryButton
             // 
-            retryButton.Location = new Point(403, 516);
+            retryButton.Anchor = AnchorStyles.None;
+            retryButton.Location = new Point(405, 512);
             retryButton.Name = "retryButton";
             retryButton.Size = new Size(121, 32);
             retryButton.TabIndex = 4;
@@ -179,8 +191,9 @@
             // 
             // scoreLabel
             // 
+            scoreLabel.Anchor = AnchorStyles.None;
             scoreLabel.AutoSize = true;
-            scoreLabel.Location = new Point(12, 516);
+            scoreLabel.Location = new Point(14, 512);
             scoreLabel.Name = "scoreLabel";
             scoreLabel.Size = new Size(96, 25);
             scoreLabel.TabIndex = 5;
@@ -188,7 +201,8 @@
             // 
             // Vissza
             // 
-            Vissza.Location = new Point(403, 17);
+            Vissza.Anchor = AnchorStyles.None;
+            Vissza.Location = new Point(405, 13);
             Vissza.Name = "Vissza";
             Vissza.Size = new Size(121, 32);
             Vissza.TabIndex = 10;
@@ -200,7 +214,7 @@
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(541, 569);
+            ClientSize = new Size(544, 561);
             Controls.Add(Vissza);
             Controls.Add(scoreLabel);
             Controls.Add(retryButton);
@@ -210,6 +224,7 @@
             Controls.Add(label1);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
             Margin = new Padding(5);
+            MinimumSize = new Size(560, 600);
             Name = "ABuvosHetesSzam";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Történelem Kvíz - A Bűvös Hetes Szám";
