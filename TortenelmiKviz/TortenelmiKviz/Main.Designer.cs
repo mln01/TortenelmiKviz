@@ -32,7 +32,7 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
-            button4 = new Button();
+            ButtonKakukktojas = new Button();
             SuspendLayout();
             // 
             // label1
@@ -73,14 +73,15 @@
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // ButtonKakukktojas
             // 
-            button4.Location = new Point(75, 289);
-            button4.Name = "button4";
-            button4.Size = new Size(340, 48);
-            button4.TabIndex = 4;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            ButtonKakukktojas.Location = new Point(75, 289);
+            ButtonKakukktojas.Name = "ButtonKakukktojas";
+            ButtonKakukktojas.Size = new Size(340, 48);
+            ButtonKakukktojas.TabIndex = 4;
+            ButtonKakukktojas.Text = "Kakukktojás";
+            ButtonKakukktojas.UseVisualStyleBackColor = true;
+            ButtonKakukktojas.Click += ButtonKakukktojas_Click;
             // 
             // tortenelmiKvízMain
             // 
@@ -88,7 +89,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(484, 381);
-            Controls.Add(button4);
+            Controls.Add(ButtonKakukktojas);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -97,6 +98,7 @@
             Margin = new Padding(5);
             MinimumSize = new Size(500, 420);
             Name = "tortenelmiKvízMain";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Történelem Kvíz";
             ResumeLayout(false);
             PerformLayout();
@@ -108,6 +110,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
-        private Button button4;
+        private Button ButtonKakukktojas;
     }
 }
