@@ -50,7 +50,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(12, 17);
             label1.Name = "label1";
             label1.Size = new Size(237, 32);
             label1.TabIndex = 0;
@@ -59,7 +59,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(12, 53);
+            label2.Location = new Point(12, 61);
             label2.Name = "label2";
             label2.Size = new Size(517, 150);
             label2.TabIndex = 1;
@@ -74,7 +74,7 @@
             choicesGroupBox.Controls.Add(choiceRadioButton3);
             choicesGroupBox.Controls.Add(choiceRadioButton2);
             choicesGroupBox.Controls.Add(choiceRadioButton1);
-            choicesGroupBox.Location = new Point(13, 195);
+            choicesGroupBox.Location = new Point(13, 203);
             choicesGroupBox.Name = "choicesGroupBox";
             choicesGroupBox.Size = new Size(511, 290);
             choicesGroupBox.TabIndex = 2;
@@ -159,7 +159,7 @@
             // 
             // nextButton
             // 
-            nextButton.Location = new Point(403, 508);
+            nextButton.Location = new Point(403, 516);
             nextButton.Name = "nextButton";
             nextButton.Size = new Size(121, 32);
             nextButton.TabIndex = 3;
@@ -169,7 +169,7 @@
             // 
             // retryButton
             // 
-            retryButton.Location = new Point(403, 508);
+            retryButton.Location = new Point(403, 516);
             retryButton.Name = "retryButton";
             retryButton.Size = new Size(121, 32);
             retryButton.TabIndex = 4;
@@ -180,15 +180,15 @@
             // scoreLabel
             // 
             scoreLabel.AutoSize = true;
-            scoreLabel.Location = new Point(12, 508);
+            scoreLabel.Location = new Point(12, 516);
             scoreLabel.Name = "scoreLabel";
-            scoreLabel.Size = new Size(63, 25);
+            scoreLabel.Size = new Size(96, 25);
             scoreLabel.TabIndex = 5;
-            scoreLabel.Text = "label3";
+            scoreLabel.Text = "Eredmeny";
             // 
             // Vissza
             // 
-            Vissza.Location = new Point(403, 9);
+            Vissza.Location = new Point(403, 17);
             Vissza.Name = "Vissza";
             Vissza.Size = new Size(121, 32);
             Vissza.TabIndex = 10;
@@ -200,7 +200,7 @@
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(536, 545);
+            ClientSize = new Size(541, 569);
             Controls.Add(Vissza);
             Controls.Add(scoreLabel);
             Controls.Add(retryButton);

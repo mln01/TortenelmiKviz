@@ -125,8 +125,6 @@ namespace TortenelmiKviz
 
         private void Vissza_Click(object sender, EventArgs e)
         {
-            Form formMain = new tortenelmiKvízMain();
-            formMain.Show();
             this.Close();
         }
     }
