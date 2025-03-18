@@ -218,7 +218,7 @@
             progressBar1.Location = new Point(47, 184);
             progressBar1.Maximum = 7;
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(459, 23);
+            progressBar1.Size = new Size(450, 23);
             progressBar1.TabIndex = 11;
             // 
             // ABuvosHetesSzam
