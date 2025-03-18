@@ -42,6 +42,7 @@ namespace TortenelmiKviz
                 new Question(new List<string> { "Bácsfalu", "Türkös", "Csernátfalu", "Hosszúfalu", "Tatrang", "Zajzon", "Tamásfalva" }, "Tamásfalva" )
             };
 
+            progressBar1.Value = 0;
             currentQuestionIndex = 0;
             score = 0;
             quizFinished = false;
@@ -69,6 +70,7 @@ namespace TortenelmiKviz
                 nextButton.Visible = true;
                 scoreLabel.Visible = false;
                 retryButton.Visible = false;
+                progressBar1.Value = currentQuestionIndex+1;
             }
             else
             {

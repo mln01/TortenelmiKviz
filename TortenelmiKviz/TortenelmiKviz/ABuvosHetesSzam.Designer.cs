@@ -43,6 +43,7 @@
             retryButton = new Button();
             scoreLabel = new Label();
             Vissza = new Button();
+            progressBar1 = new ProgressBar();
             choicesGroupBox.SuspendLayout();
             SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             // 
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.Location = new Point(14, 57);
+            label2.Location = new Point(9, 48);
             label2.Name = "label2";
             label2.Size = new Size(517, 150);
             label2.TabIndex = 1;
@@ -77,7 +78,7 @@
             choicesGroupBox.Controls.Add(choiceRadioButton3);
             choicesGroupBox.Controls.Add(choiceRadioButton2);
             choicesGroupBox.Controls.Add(choiceRadioButton1);
-            choicesGroupBox.Location = new Point(15, 199);
+            choicesGroupBox.Location = new Point(15, 213);
             choicesGroupBox.Name = "choicesGroupBox";
             choicesGroupBox.Size = new Size(511, 290);
             choicesGroupBox.TabIndex = 2;
@@ -210,11 +211,22 @@
             Vissza.UseVisualStyleBackColor = true;
             Vissza.Click += Vissza_Click;
             // 
+            // progressBar1
+            // 
+            progressBar1.Anchor = AnchorStyles.None;
+            progressBar1.ForeColor = Color.DarkSeaGreen;
+            progressBar1.Location = new Point(47, 184);
+            progressBar1.Maximum = 7;
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(459, 23);
+            progressBar1.TabIndex = 11;
+            // 
             // ABuvosHetesSzam
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(544, 561);
+            Controls.Add(progressBar1);
             Controls.Add(Vissza);
             Controls.Add(scoreLabel);
             Controls.Add(retryButton);
@@ -251,5 +263,6 @@
         private RadioButton choiceRadioButton2;
         private RadioButton choiceRadioButton7;
         private Button Vissza;
+        private ProgressBar progressBar1;
     }
 }
