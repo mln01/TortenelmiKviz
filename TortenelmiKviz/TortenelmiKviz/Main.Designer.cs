@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
             ButtonKakukktojas = new Button();
             SuspendLayout();
             // 
@@ -47,44 +44,11 @@
             label1.TabIndex = 0;
             label1.Text = "Történelem Kvíz";
             // 
-            // button1
-            // 
-            button1.Anchor = AnchorStyles.None;
-            button1.AutoSize = true;
-            button1.Location = new Point(75, 121);
-            button1.Name = "button1";
-            button1.Size = new Size(340, 48);
-            button1.TabIndex = 1;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Anchor = AnchorStyles.None;
-            button2.AutoSize = true;
-            button2.Location = new Point(75, 177);
-            button2.Name = "button2";
-            button2.Size = new Size(340, 48);
-            button2.TabIndex = 2;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Anchor = AnchorStyles.None;
-            button3.AutoSize = true;
-            button3.Location = new Point(75, 233);
-            button3.Name = "button3";
-            button3.Size = new Size(340, 48);
-            button3.TabIndex = 3;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            // 
             // ButtonKakukktojas
             // 
             ButtonKakukktojas.Anchor = AnchorStyles.None;
             ButtonKakukktojas.AutoSize = true;
-            ButtonKakukktojas.Location = new Point(75, 289);
+            ButtonKakukktojas.Location = new Point(78, 104);
             ButtonKakukktojas.Name = "ButtonKakukktojas";
             ButtonKakukktojas.Size = new Size(340, 48);
             ButtonKakukktojas.TabIndex = 4;
@@ -99,9 +63,6 @@
             BackColor = SystemColors.Control;
             ClientSize = new Size(484, 381);
             Controls.Add(ButtonKakukktojas);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
             Margin = new Padding(5);
@@ -116,9 +77,6 @@
         #endregion
 
         private Label label1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
         private Button ButtonKakukktojas;
     }
 }

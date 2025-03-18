@@ -49,9 +49,9 @@
             // buttonVissza
             // 
             buttonVissza.Anchor = AnchorStyles.None;
-            buttonVissza.Location = new Point(25, 292);
+            buttonVissza.Location = new Point(67, 292);
             buttonVissza.Name = "buttonVissza";
-            buttonVissza.Size = new Size(340, 48);
+            buttonVissza.Size = new Size(246, 48);
             buttonVissza.TabIndex = 7;
             buttonVissza.Text = "Vissza";
             buttonVissza.UseVisualStyleBackColor = true;
@@ -60,9 +60,9 @@
             // buttonABuvosHetesSzam
             // 
             buttonABuvosHetesSzam.Anchor = AnchorStyles.None;
-            buttonABuvosHetesSzam.Location = new Point(25, 105);
+            buttonABuvosHetesSzam.Location = new Point(67, 94);
             buttonABuvosHetesSzam.Name = "buttonABuvosHetesSzam";
-            buttonABuvosHetesSzam.Size = new Size(340, 48);
+            buttonABuvosHetesSzam.Size = new Size(246, 48);
             buttonABuvosHetesSzam.TabIndex = 8;
             buttonABuvosHetesSzam.Text = "A Bűvös Hetes Szám";
             buttonABuvosHetesSzam.UseVisualStyleBackColor = true;
