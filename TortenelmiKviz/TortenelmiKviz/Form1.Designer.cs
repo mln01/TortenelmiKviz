@@ -1,6 +1,6 @@
 ﻿namespace TortenelmiKviz
 {
-    partial class Form1
+    partial class tortenelmiKvízFooldal
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            SuspendLayout();
+            // 
+            // tortenelmiKvízFooldal
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Control;
+            ClientSize = new Size(822, 493);
+            Name = "tortenelmiKvízFooldal";
+            Text = "Történelem Kvíz";
+            ResumeLayout(false);
         }
 
         #endregion
