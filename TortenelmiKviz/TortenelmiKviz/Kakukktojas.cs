@@ -19,6 +19,8 @@ namespace TortenelmiKviz
 
         private void buttonVissza_Click(object sender, EventArgs e)
         {
+            Form formMain = new tortenelmiKvízMain();
+            formMain.Show();
             this.Close();
         }
 
@@ -26,6 +28,7 @@ namespace TortenelmiKviz
         {
             Form ABHSZ = new ABuvosHetesSzam();
             ABHSZ.Show();
+            this.Close();
         }
     }
 }

@@ -125,6 +125,8 @@ namespace TortenelmiKviz
 
         private void Vissza_Click(object sender, EventArgs e)
         {
+            Form kakukk = new tortenelmiKvizKakukktojas();
+            kakukk.Show();
             this.Close();
         }
     }

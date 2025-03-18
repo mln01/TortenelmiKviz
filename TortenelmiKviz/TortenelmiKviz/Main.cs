@@ -11,6 +11,7 @@ namespace TortenelmiKviz
         {
             Form formKakukktojas = new tortenelmiKvizKakukktojas();
             formKakukktojas.Show();
+            this.Hide();
         }
     }
 }

@@ -212,7 +212,7 @@
             Margin = new Padding(5);
             Name = "ABuvosHetesSzam";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "ABuvosHetesSzam";
+            Text = "Történelem Kvíz - A Bűvös Hetes Szám";
             Load += ABuvosHetesSzam_Load;
             choicesGroupBox.ResumeLayout(false);
             choicesGroupBox.PerformLayout();

@@ -38,11 +38,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Black", 40F, FontStyle.Bold);
-            label1.Location = new Point(14, 30);
+            label1.Font = new Font("Segoe UI Semibold", 42F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            label1.Location = new Point(32, 27);
             label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
-            label1.Size = new Size(465, 72);
+            label1.Size = new Size(438, 74);
             label1.TabIndex = 0;
             label1.Text = "Történelem Kvíz";
             // 
@@ -95,7 +95,7 @@
             Controls.Add(button1);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            Margin = new Padding(5);
+            Margin = new Padding(5, 5, 5, 5);
             MinimumSize = new Size(500, 420);
             Name = "tortenelmiKvízMain";
             StartPosition = FormStartPosition.CenterScreen;

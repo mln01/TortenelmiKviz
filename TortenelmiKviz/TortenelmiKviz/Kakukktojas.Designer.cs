@@ -36,11 +36,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Black", 40F, FontStyle.Bold);
-            label1.Location = new Point(24, 32);
+            label1.Font = new Font("Segoe UI Semibold", 36F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            label1.Location = new Point(51, 28);
             label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
-            label1.Size = new Size(357, 72);
+            label1.Size = new Size(290, 65);
             label1.TabIndex = 5;
             label1.Text = "Kakukktojás";
             label1.TextAlign = ContentAlignment.MiddleCenter;
