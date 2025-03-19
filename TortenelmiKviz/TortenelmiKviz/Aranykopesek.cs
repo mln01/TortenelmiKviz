@@ -89,15 +89,14 @@
 
         private void nextButton_Click(object sender, EventArgs e)
         {
-            // Check the selected answer
             if (choicesGroupBox.Controls.OfType<TextBox>().Any(TextBox
                 => TextBox.Text != ""))
             {
                 Question currentQuestion = questions[currentQuestionIndex];
-                string useranswer1 = textBox1.Text;
-                string useranswer2 = textBox2.Text;
-                string answer1 = currentQuestion.CorrectAnswer.Split(';')[0];
-                string answer2 = currentQuestion.CorrectAnswer.Split(';')[1];
+                string useranswer1 = textBox1.Text.Trim();
+                string useranswer2 = textBox2.Text.Trim();
+                string answer1 = currentQuestion.CorrectAnswer.Split(';')[0].Trim();
+                string answer2 = currentQuestion.CorrectAnswer.Split(';')[1].Trim();
 
                 if (useranswer1 == answer1)
                 {
