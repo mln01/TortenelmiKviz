@@ -38,11 +38,11 @@
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 36F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            label1.Location = new Point(46, 26);
-            label1.Margin = new Padding(5, 0, 5, 0);
+            label1.Font = new Font("Segoe UI Semibold", 30F, FontStyle.Bold);
+            label1.Location = new Point(41, 9);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(290, 65);
+            label1.Size = new Size(240, 54);
             label1.TabIndex = 5;
             label1.Text = "Kakukktojás";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -50,9 +50,10 @@
             // buttonVissza
             // 
             buttonVissza.Anchor = AnchorStyles.None;
-            buttonVissza.Location = new Point(67, 292);
+            buttonVissza.Location = new Point(112, 253);
+            buttonVissza.Margin = new Padding(2, 3, 2, 3);
             buttonVissza.Name = "buttonVissza";
-            buttonVissza.Size = new Size(246, 48);
+            buttonVissza.Size = new Size(86, 38);
             buttonVissza.TabIndex = 7;
             buttonVissza.Text = "Vissza";
             buttonVissza.UseVisualStyleBackColor = true;
@@ -61,9 +62,10 @@
             // buttonABuvosHetesSzam
             // 
             buttonABuvosHetesSzam.Anchor = AnchorStyles.None;
-            buttonABuvosHetesSzam.Location = new Point(67, 94);
+            buttonABuvosHetesSzam.Location = new Point(55, 66);
+            buttonABuvosHetesSzam.Margin = new Padding(2, 3, 2, 3);
             buttonABuvosHetesSzam.Name = "buttonABuvosHetesSzam";
-            buttonABuvosHetesSzam.Size = new Size(246, 48);
+            buttonABuvosHetesSzam.Size = new Size(201, 40);
             buttonABuvosHetesSzam.TabIndex = 8;
             buttonABuvosHetesSzam.Text = "A Bűvös Hetes Szám";
             buttonABuvosHetesSzam.UseVisualStyleBackColor = true;
@@ -72,9 +74,10 @@
             // buttonHazankTajain
             // 
             buttonHazankTajain.Anchor = AnchorStyles.None;
-            buttonHazankTajain.Location = new Point(69, 156);
+            buttonHazankTajain.Location = new Point(56, 118);
+            buttonHazankTajain.Margin = new Padding(2, 3, 2, 3);
             buttonHazankTajain.Name = "buttonHazankTajain";
-            buttonHazankTajain.Size = new Size(246, 48);
+            buttonHazankTajain.Size = new Size(201, 40);
             buttonHazankTajain.TabIndex = 9;
             buttonHazankTajain.Text = "Hazánk Tájain";
             buttonHazankTajain.UseVisualStyleBackColor = true;
@@ -82,16 +85,16 @@
             // 
             // tortenelmiKvizKakukktojas
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(384, 361);
+            ClientSize = new Size(314, 303);
             Controls.Add(buttonHazankTajain);
             Controls.Add(buttonABuvosHetesSzam);
             Controls.Add(buttonVissza);
             Controls.Add(label1);
-            Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            Margin = new Padding(5);
-            MinimumSize = new Size(400, 400);
+            Font = new Font("Segoe UI", 12F);
+            Margin = new Padding(4, 4, 4, 4);
+            MinimumSize = new Size(330, 340);
             Name = "tortenelmiKvizKakukktojas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Történelmi Kvíz - Kakukktojás";
