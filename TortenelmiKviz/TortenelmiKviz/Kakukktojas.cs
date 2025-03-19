@@ -20,5 +20,12 @@
             ABHSZ.Show();
             this.Close();
         }
+
+        private void buttonHazankTajain_Click(object sender, EventArgs e)
+        {
+            Form HT = new HazankTajain();
+            HT.Show();
+            this.Close();
+        }
     }
 }

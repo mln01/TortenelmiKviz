@@ -31,6 +31,7 @@
             label1 = new Label();
             buttonVissza = new Button();
             buttonABuvosHetesSzam = new Button();
+            buttonHazankTajain = new Button();
             SuspendLayout();
             // 
             // label1
@@ -68,11 +69,23 @@
             buttonABuvosHetesSzam.UseVisualStyleBackColor = true;
             buttonABuvosHetesSzam.Click += buttonABuvosHetesSzam_Click;
             // 
+            // buttonHazankTajain
+            // 
+            buttonHazankTajain.Anchor = AnchorStyles.None;
+            buttonHazankTajain.Location = new Point(69, 156);
+            buttonHazankTajain.Name = "buttonHazankTajain";
+            buttonHazankTajain.Size = new Size(246, 48);
+            buttonHazankTajain.TabIndex = 9;
+            buttonHazankTajain.Text = "Hazánk Tájain";
+            buttonHazankTajain.UseVisualStyleBackColor = true;
+            buttonHazankTajain.Click += buttonHazankTajain_Click;
+            // 
             // tortenelmiKvizKakukktojas
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(384, 361);
+            Controls.Add(buttonHazankTajain);
             Controls.Add(buttonABuvosHetesSzam);
             Controls.Add(buttonVissza);
             Controls.Add(label1);
@@ -94,5 +107,6 @@
         private Label label1;
         private Button buttonVissza;
         private Button buttonABuvosHetesSzam;
+        private Button buttonHazankTajain;
     }
 }

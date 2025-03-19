@@ -1,19 +1,30 @@
-﻿namespace TortenelmiKviz
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using static System.Formats.Asn1.AsnWriter;
+
+namespace TortenelmiKviz
 {
-    public partial class ABuvosHetesSzam : Form
+    public partial class HazankTajain : Form
     {
         private List<Question> questions;
         private int currentQuestionIndex;
         private int score;
         private bool quizFinished;
 
-        public ABuvosHetesSzam()
+        public HazankTajain()
         {
             InitializeComponent();
             InitializeQuiz();
         }
 
-        private void ABuvosHetesSzam_Load(object sender, EventArgs e)
+        private void HazankTajain_Load(object sender, EventArgs e)
         {
 
         }
@@ -22,13 +33,11 @@
         {
             questions = new List<Question>
             {
-                new Question(new List<string> { "a wittenbergi herceg", "a vajnai palotagróf", "a hannoveri fejedelem", "a brandenburgi őrgróf", "a cseh király", "a kölni érsek", "a trieri érsek" }, "a hannoveri fejedelem" ),
-                new Question(new List<string> { "a grammatika", "a dialektika", "a retorika", "a geometria", "az eritmetika", "a dogmatika", "az asztronómia" }, "a dogmatika" ),
-                new Question(new List<string> { "Pheidias olympiai Zeus-szobra", "Semiramis függőkertje", "a rhodosi kolosszus", "a Mausszoleion", "az alexandriai Phárosz világítótornya", "az epheszoszi Artemis-templom", "Antipartos epigrammája" }, "az alexandriai Phárosz világítótornya" ),
-                new Question(new List<string> { "a gyermek körülmetélése", "az egyiptomi menekülés", "a gyermek elmaradása a templomban", "a kereszthozó Jézussal való találkozás", "a halál szemlélete", "a keresztről való levétel", "a mennybemenetel" }, "a mennybemenetel" ),
-                new Question(new List<string> { "Árpád", "Szabolcs", "Kurszán", "Ete", "Örs", "Lél", "Tétény" }, "Örs" ),
-                new Question(new List<string> { "Nyék", "Megyer", "Kürtgyarmat", "Tarján", "Jász", "Keszi", "Jenő" }, "Jász" ),
-                new Question(new List<string> { "Bácsfalu", "Türkös", "Csernátfalu", "Hosszúfalu", "Tatrang", "Zajzon", "Tamásfalva" }, "Tamásfalva" )
+                new Question(new List<string> { "Bugac", "Jászság", "Ecsedi-láp", "Göcsej", "Nyírség" }, "Göcsej" ),
+                new Question(new List<string> { "Bükk", "Mátra", "Almás", "Cserhát", "Börzsöny" }, "Almás" ),
+                new Question(new List < string > { "Vértes", "Pilis", "Bakony", "Őrség", "Temesköz" }, "Temesköz"),
+                new Question(new List < string > { "Csallóköz", "Mátyusföld", "Hanság", "Kemeneshát", "Cserhát" }, "Cserhát"),
+                new Question(new List < string > { "Csíki-havasok", "Eperjes-Tokaj-hegység", "Baróti-hegység", "Brassói-havasok", "Háromszéki-havasok" }, "Eperjees-Tokaj-hegység")
             };
 
             progressBar1.Value = 0;
@@ -51,8 +60,6 @@
                 choiceRadioButton3.Text = currentQuestion.Choices[2];
                 choiceRadioButton4.Text = currentQuestion.Choices[3];
                 choiceRadioButton5.Text = currentQuestion.Choices[4];
-                choiceRadioButton6.Text = currentQuestion.Choices[5];
-                choiceRadioButton7.Text = currentQuestion.Choices[6];
 
                 choicesGroupBox.Controls.OfType<RadioButton>().ToList().ForEach(radioButton => radioButton.Checked = false);
 
@@ -87,7 +94,19 @@
             }
         }
 
-        private void nextButton_Click_1(object sender, EventArgs e)
+        private void Vissza_Click_1(object sender, EventArgs e)
+        {
+            Form kakukk = new tortenelmiKvizKakukktojas();
+            kakukk.Show();
+            this.Close();
+        }
+
+        private void retryButton_Click(object sender, EventArgs e)
+        {
+            InitializeQuiz();
+        }
+
+        private void nextButton_Click(object sender, EventArgs e)
         {
             // Check the selected answer
             if (choicesGroupBox.Controls.OfType<RadioButton>().Any(radioButton => radioButton.Checked))
@@ -108,18 +127,6 @@
             {
                 MessageBox.Show("Légyszíves jelölj be egy választ mielőtt a következőre mész.", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void retryButton_Click_1(object sender, EventArgs e)
-        {
-            InitializeQuiz();
-        }
-
-        private void Vissza_Click(object sender, EventArgs e)
-        {
-            Form kakukk = new tortenelmiKvizKakukktojas();
-            kakukk.Show();
-            this.Close();
         }
     }
 }
