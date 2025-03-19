@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             ButtonKakukktojas = new Button();
+            buttonAranykopesek = new Button();
             SuspendLayout();
             // 
             // label1
@@ -56,12 +57,25 @@
             ButtonKakukktojas.UseVisualStyleBackColor = true;
             ButtonKakukktojas.Click += ButtonKakukktojas_Click;
             // 
+            // buttonAranykopesek
+            // 
+            buttonAranykopesek.Anchor = AnchorStyles.None;
+            buttonAranykopesek.AutoSize = true;
+            buttonAranykopesek.Location = new Point(78, 158);
+            buttonAranykopesek.Name = "buttonAranykopesek";
+            buttonAranykopesek.Size = new Size(340, 48);
+            buttonAranykopesek.TabIndex = 5;
+            buttonAranykopesek.Text = "Aranyköpések (néha csak ezüst)";
+            buttonAranykopesek.UseVisualStyleBackColor = true;
+            buttonAranykopesek.Click += buttonAranykopesek_Click;
+            // 
             // tortenelmiKvízMain
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(484, 381);
+            Controls.Add(buttonAranykopesek);
             Controls.Add(ButtonKakukktojas);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
@@ -78,5 +92,6 @@
 
         private Label label1;
         private Button ButtonKakukktojas;
+        private Button buttonAranykopesek;
     }
 }

@@ -13,5 +13,12 @@ namespace TortenelmiKviz
             formKakukktojas.Show();
             this.Enabled = false;
         }
+
+        private void buttonAranykopesek_Click(object sender, EventArgs e)
+        {
+            Form Aranykopesek = new Aranykopesek(this);
+            Aranykopesek.Show();
+            this.Enabled = false;
+        }
     }
 }
