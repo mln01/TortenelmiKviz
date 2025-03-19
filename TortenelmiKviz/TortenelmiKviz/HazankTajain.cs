@@ -17,11 +17,13 @@ namespace TortenelmiKviz
         private int currentQuestionIndex;
         private int score;
         private bool quizFinished;
+        private Form Kakukk;
 
-        public HazankTajain()
+        public HazankTajain(Form Kakukk)
         {
             InitializeComponent();
             InitializeQuiz();
+            this.Kakukk = Kakukk;
         }
 
         private void HazankTajain_Load(object sender, EventArgs e)
@@ -37,7 +39,7 @@ namespace TortenelmiKviz
                 new Question(new List<string> { "Bükk", "Mátra", "Almás", "Cserhát", "Börzsöny" }, "Almás" ),
                 new Question(new List < string > { "Vértes", "Pilis", "Bakony", "Őrség", "Temesköz" }, "Temesköz"),
                 new Question(new List < string > { "Csallóköz", "Mátyusföld", "Hanság", "Kemeneshát", "Cserhát" }, "Cserhát"),
-                new Question(new List < string > { "Csíki-havasok", "Eperjes-Tokaj-hegység", "Baróti-hegység", "Brassói-havasok", "Háromszéki-havasok" }, "Eperjees-Tokaj-hegység")
+                new Question(new List < string > { "Csíki-havasok", "Eperjes-Tokaj-hegység", "Baróti-hegység", "Brassói-havasok", "Háromszéki-havasok" }, "Eperjes-Tokaj-hegység")
             };
 
             progressBar1.Value = 0;
@@ -96,8 +98,7 @@ namespace TortenelmiKviz
 
         private void Vissza_Click_1(object sender, EventArgs e)
         {
-            Form kakukk = new tortenelmiKvizKakukktojas();
-            kakukk.Show();
+            Kakukk.Enabled = true;
             this.Close();
         }
 

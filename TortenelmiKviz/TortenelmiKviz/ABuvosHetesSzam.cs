@@ -6,11 +6,13 @@
         private int currentQuestionIndex;
         private int score;
         private bool quizFinished;
+        private Form Kakukk;
 
-        public ABuvosHetesSzam()
+        public ABuvosHetesSzam(Form Kakukk)
         {
             InitializeComponent();
             InitializeQuiz();
+            this.Kakukk = Kakukk;
         }
 
         private void ABuvosHetesSzam_Load(object sender, EventArgs e)
@@ -117,8 +119,7 @@
 
         private void Vissza_Click(object sender, EventArgs e)
         {
-            Form kakukk = new tortenelmiKvizKakukktojas();
-            kakukk.Show();
+            Kakukk.Enabled = true;
             this.Close();
         }
     }

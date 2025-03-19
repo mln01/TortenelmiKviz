@@ -2,30 +2,32 @@
 {
     public partial class tortenelmiKvizKakukktojas : Form
     {
-        public tortenelmiKvizKakukktojas()
+        private Form formMain;
+
+        public tortenelmiKvizKakukktojas(Form Main)
         {
             InitializeComponent();
+            formMain = Main;
         }
 
         private void buttonVissza_Click(object sender, EventArgs e)
         {
-            Form formMain = new tortenelmiKvízMain();
-            formMain.Show();
+            formMain.Enabled = true;
             this.Close();
         }
 
         private void buttonABuvosHetesSzam_Click(object sender, EventArgs e)
         {
-            Form ABHSZ = new ABuvosHetesSzam();
+            Form ABHSZ = new ABuvosHetesSzam(this);
             ABHSZ.Show();
-            this.Close();
+            this.Enabled = false;
         }
 
         private void buttonHazankTajain_Click(object sender, EventArgs e)
         {
-            Form HT = new HazankTajain();
+            Form HT = new HazankTajain(this);
             HT.Show();
-            this.Close();
+            this.Enabled = false;
         }
     }
 }

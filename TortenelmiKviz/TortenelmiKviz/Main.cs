@@ -9,9 +9,9 @@ namespace TortenelmiKviz
 
         private void ButtonKakukktojas_Click(object sender, EventArgs e)
         {
-            Form formKakukktojas = new tortenelmiKvizKakukktojas();
+            Form formKakukktojas = new tortenelmiKvizKakukktojas(this);
             formKakukktojas.Show();
-            this.Hide();
+            this.Enabled = false;
         }
     }
 }
