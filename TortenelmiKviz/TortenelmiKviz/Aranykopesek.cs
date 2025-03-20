@@ -25,17 +25,19 @@
                 new Question("Jobb későn, mint soha", "Livius;Kr. e. 1. század"),
                 new Question("Az igazság beszéde egyszerű", "Seneca;Kr. e. 4 k.–Kr. u. 65."),
                 new Question("A pénznek nincs szaga", "Vespasianus;Kr. e. 1. század"),
-                new Question("Kezdetben vala az ige, az ige vala az Istennél, és az\n Isten vala az ige", "János evangélista;Kr. idején"),
+                new Question("Kezdetben vala az ige, az ige vala az Istennél, és az\nIsten vala az ige", "János evangélista;Kr. idején"),
                 new Question("Minden ami ismeretlen, nagszerűnek tetszik.", "Tacitus;Kr. e. 1. század"),
                 new Question("Gyakorlat növeli a merészséget", "Ifj. Plinius;Kr. u. 2. század"),
                 new Question("E jelben győzni fogsz", "Constantinus;Kr. u. 274–337"),
-                new Question("Gazdag hatalmasok szövetkezése igazságosság nélkül \nmi más, mint nagy rablóbanda.", "Augustus;Kr. e. 1. század"),
-                new Question("Az ember igazi gazdasága az a jó, amit a világban\n véghezvitt", "Mohamed;Kr. u. 571–632"),
-                new Question("Az egynyelvű és egyszokású ország erőtlen és romlandó.", "Szent István;Kr. u. 975–1038"),
+                new Question("Gazdag hatalmasok szövetkezése igazságosság\nnélkül mi más, mint nagy rablóbanda.", "Augustus;Kr. e. 1. század"),
+                new Question("Az ember igazi gazdasága az a jó, amit a világban\nvéghezvitt", "Mohamed;Kr. u. 571–632"),
+                new Question("Az egynyelvű és egyszokású ország erőtlen és\nromlandó.", "Szent István;Kr. u. 975–1038"),
                 new Question("A matematika a tudományok kapuja és kulcsa.", "Roger Bacon;Kr. u. 13. század")
             };
 
             currentQuestionIndex = 0;
+            progressBar1.Maximum = questions.Count;
+            progressBar1.Value = currentQuestionIndex + 1;
             score = 0;
             quizFinished = false;
 
@@ -54,7 +56,6 @@
                 questionLabel.Text = currentQuestion.Text;
 
                 progressBar1.Value = currentQuestionIndex + 1;
-                progressBar1.Maximum = questions.Count;
                 choicesGroupBox.Visible = true;
                 nextButton.Visible = true;
                 scoreLabel.Visible = false;

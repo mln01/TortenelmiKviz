@@ -48,20 +48,20 @@
             // 
             progressBar1.Anchor = AnchorStyles.None;
             progressBar1.ForeColor = Color.DarkSeaGreen;
-            progressBar1.Location = new Point(56, 116);
+            progressBar1.Location = new Point(44, 123);
             progressBar1.Margin = new Padding(4);
             progressBar1.Maximum = 7;
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(328, 32);
+            progressBar1.Size = new Size(338, 23);
             progressBar1.TabIndex = 19;
             // 
             // Vissza
             // 
             Vissza.Anchor = AnchorStyles.None;
-            Vissza.Location = new Point(321, 13);
+            Vissza.Location = new Point(321, 11);
             Vissza.Margin = new Padding(4);
             Vissza.Name = "Vissza";
-            Vissza.Size = new Size(98, 32);
+            Vissza.Size = new Size(98, 27);
             Vissza.TabIndex = 18;
             Vissza.Text = "Vissza";
             Vissza.UseVisualStyleBackColor = true;
@@ -71,7 +71,7 @@
             // 
             scoreLabel.Anchor = AnchorStyles.None;
             scoreLabel.AutoSize = true;
-            scoreLabel.Location = new Point(18, 459);
+            scoreLabel.Location = new Point(16, 369);
             scoreLabel.Margin = new Padding(4, 0, 4, 0);
             scoreLabel.Name = "scoreLabel";
             scoreLabel.Size = new Size(80, 21);
@@ -81,10 +81,10 @@
             // retryButton
             // 
             retryButton.Anchor = AnchorStyles.None;
-            retryButton.Location = new Point(322, 459);
+            retryButton.Location = new Point(318, 369);
             retryButton.Margin = new Padding(4);
             retryButton.Name = "retryButton";
-            retryButton.Size = new Size(97, 32);
+            retryButton.Size = new Size(97, 29);
             retryButton.TabIndex = 16;
             retryButton.Text = "Újrakezdés";
             retryButton.UseVisualStyleBackColor = true;
@@ -93,10 +93,10 @@
             // nextButton
             // 
             nextButton.Anchor = AnchorStyles.None;
-            nextButton.Location = new Point(322, 459);
+            nextButton.Location = new Point(320, 369);
             nextButton.Margin = new Padding(4);
             nextButton.Name = "nextButton";
-            nextButton.Size = new Size(95, 32);
+            nextButton.Size = new Size(95, 29);
             nextButton.TabIndex = 15;
             nextButton.Text = "Következő";
             nextButton.UseVisualStyleBackColor = true;
@@ -110,11 +110,11 @@
             choicesGroupBox.Controls.Add(choiceRadioButton3);
             choicesGroupBox.Controls.Add(choiceRadioButton2);
             choicesGroupBox.Controls.Add(choiceRadioButton1);
-            choicesGroupBox.Location = new Point(18, 156);
+            choicesGroupBox.Location = new Point(18, 154);
             choicesGroupBox.Margin = new Padding(4);
             choicesGroupBox.Name = "choicesGroupBox";
             choicesGroupBox.Padding = new Padding(4);
-            choicesGroupBox.Size = new Size(399, 295);
+            choicesGroupBox.Size = new Size(399, 207);
             choicesGroupBox.TabIndex = 14;
             choicesGroupBox.TabStop = false;
             choicesGroupBox.Text = "Valasztási Lehetőségek";
@@ -123,7 +123,7 @@
             // 
             choiceRadioButton5.Anchor = AnchorStyles.None;
             choiceRadioButton5.AutoSize = true;
-            choiceRadioButton5.Location = new Point(26, 246);
+            choiceRadioButton5.Location = new Point(26, 163);
             choiceRadioButton5.Margin = new Padding(4);
             choiceRadioButton5.Name = "choiceRadioButton5";
             choiceRadioButton5.Size = new Size(72, 25);
@@ -136,7 +136,7 @@
             // 
             choiceRadioButton4.Anchor = AnchorStyles.None;
             choiceRadioButton4.AutoSize = true;
-            choiceRadioButton4.Location = new Point(26, 197);
+            choiceRadioButton4.Location = new Point(26, 130);
             choiceRadioButton4.Margin = new Padding(4);
             choiceRadioButton4.Name = "choiceRadioButton4";
             choiceRadioButton4.Size = new Size(72, 25);
@@ -149,7 +149,7 @@
             // 
             choiceRadioButton3.Anchor = AnchorStyles.None;
             choiceRadioButton3.AutoSize = true;
-            choiceRadioButton3.Location = new Point(26, 148);
+            choiceRadioButton3.Location = new Point(26, 97);
             choiceRadioButton3.Margin = new Padding(4);
             choiceRadioButton3.Name = "choiceRadioButton3";
             choiceRadioButton3.Size = new Size(72, 25);
@@ -162,7 +162,7 @@
             // 
             choiceRadioButton2.Anchor = AnchorStyles.None;
             choiceRadioButton2.AutoSize = true;
-            choiceRadioButton2.Location = new Point(26, 99);
+            choiceRadioButton2.Location = new Point(26, 64);
             choiceRadioButton2.Margin = new Padding(4);
             choiceRadioButton2.Name = "choiceRadioButton2";
             choiceRadioButton2.Size = new Size(72, 25);
@@ -175,7 +175,7 @@
             // 
             choiceRadioButton1.Anchor = AnchorStyles.None;
             choiceRadioButton1.AutoSize = true;
-            choiceRadioButton1.Location = new Point(26, 50);
+            choiceRadioButton1.Location = new Point(26, 31);
             choiceRadioButton1.Margin = new Padding(4);
             choiceRadioButton1.Name = "choiceRadioButton1";
             choiceRadioButton1.Size = new Size(72, 25);
@@ -188,7 +188,7 @@
             // 
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.Location = new Point(18, 49);
+            label2.Location = new Point(18, 47);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(401, 63);
@@ -200,7 +200,7 @@
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            label1.Location = new Point(15, 8);
+            label1.Location = new Point(15, 6);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(166, 32);
@@ -211,7 +211,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(424, 501);
+            ClientSize = new Size(424, 411);
             Controls.Add(progressBar1);
             Controls.Add(Vissza);
             Controls.Add(scoreLabel);
@@ -222,7 +222,7 @@
             Controls.Add(label1);
             Font = new Font("Segoe UI", 12F);
             Margin = new Padding(4);
-            MinimumSize = new Size(440, 540);
+            MinimumSize = new Size(440, 450);
             Name = "HazankTajain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Történelem Kvíz - Hazánk Tájain";

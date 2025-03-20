@@ -50,10 +50,10 @@
             // buttonVissza
             // 
             buttonVissza.Anchor = AnchorStyles.None;
-            buttonVissza.Location = new Point(112, 253);
+            buttonVissza.Location = new Point(112, 264);
             buttonVissza.Margin = new Padding(2, 3, 2, 3);
             buttonVissza.Name = "buttonVissza";
-            buttonVissza.Size = new Size(86, 38);
+            buttonVissza.Size = new Size(86, 27);
             buttonVissza.TabIndex = 7;
             buttonVissza.Text = "Vissza";
             buttonVissza.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             buttonABuvosHetesSzam.Location = new Point(55, 66);
             buttonABuvosHetesSzam.Margin = new Padding(2, 3, 2, 3);
             buttonABuvosHetesSzam.Name = "buttonABuvosHetesSzam";
-            buttonABuvosHetesSzam.Size = new Size(201, 40);
+            buttonABuvosHetesSzam.Size = new Size(201, 36);
             buttonABuvosHetesSzam.TabIndex = 8;
             buttonABuvosHetesSzam.Text = "A Bűvös Hetes Szám";
             buttonABuvosHetesSzam.UseVisualStyleBackColor = true;
@@ -74,10 +74,10 @@
             // buttonHazankTajain
             // 
             buttonHazankTajain.Anchor = AnchorStyles.None;
-            buttonHazankTajain.Location = new Point(56, 118);
+            buttonHazankTajain.Location = new Point(55, 108);
             buttonHazankTajain.Margin = new Padding(2, 3, 2, 3);
             buttonHazankTajain.Name = "buttonHazankTajain";
-            buttonHazankTajain.Size = new Size(201, 40);
+            buttonHazankTajain.Size = new Size(201, 33);
             buttonHazankTajain.TabIndex = 9;
             buttonHazankTajain.Text = "Hazánk Tájain";
             buttonHazankTajain.UseVisualStyleBackColor = true;
@@ -93,7 +93,7 @@
             Controls.Add(buttonVissza);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 12F);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             MinimumSize = new Size(330, 340);
             Name = "tortenelmiKvizKakukktojas";
             StartPosition = FormStartPosition.CenterScreen;

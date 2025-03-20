@@ -38,7 +38,7 @@
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 32F, FontStyle.Bold);
-            label1.Location = new Point(20, 23);
+            label1.Location = new Point(24, 23);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(336, 59);
@@ -52,7 +52,7 @@
             ButtonKakukktojas.Location = new Point(66, 85);
             ButtonKakukktojas.Margin = new Padding(2, 3, 2, 3);
             ButtonKakukktojas.Name = "ButtonKakukktojas";
-            ButtonKakukktojas.Size = new Size(247, 40);
+            ButtonKakukktojas.Size = new Size(247, 35);
             ButtonKakukktojas.TabIndex = 4;
             ButtonKakukktojas.Text = "Kakukktojás";
             ButtonKakukktojas.UseVisualStyleBackColor = true;
@@ -62,10 +62,10 @@
             // 
             buttonAranykopesek.Anchor = AnchorStyles.None;
             buttonAranykopesek.AutoSize = true;
-            buttonAranykopesek.Location = new Point(66, 133);
+            buttonAranykopesek.Location = new Point(66, 124);
             buttonAranykopesek.Margin = new Padding(2, 3, 2, 3);
             buttonAranykopesek.Name = "buttonAranykopesek";
-            buttonAranykopesek.Size = new Size(247, 40);
+            buttonAranykopesek.Size = new Size(247, 35);
             buttonAranykopesek.TabIndex = 5;
             buttonAranykopesek.Text = "Aranyköpések (néha csak ezüst)";
             buttonAranykopesek.UseVisualStyleBackColor = true;
@@ -81,7 +81,7 @@
             Controls.Add(ButtonKakukktojas);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 12F);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             MinimumSize = new Size(400, 360);
             Name = "tortenelmiKvízMain";
             StartPosition = FormStartPosition.CenterScreen;

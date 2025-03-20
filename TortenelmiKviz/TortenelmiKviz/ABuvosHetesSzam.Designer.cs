@@ -219,7 +219,7 @@
             progressBar1.Location = new Point(39, 153);
             progressBar1.Maximum = 7;
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(368, 20);
+            progressBar1.Size = new Size(368, 19);
             progressBar1.TabIndex = 11;
             // 
             // ABuvosHetesSzam
@@ -236,7 +236,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 12F);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             MinimumSize = new Size(460, 510);
             Name = "ABuvosHetesSzam";
             StartPosition = FormStartPosition.CenterScreen;
