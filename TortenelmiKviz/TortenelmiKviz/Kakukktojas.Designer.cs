@@ -32,6 +32,7 @@
             buttonVissza = new Button();
             buttonABuvosHetesSzam = new Button();
             buttonHazankTajain = new Button();
+            buttonKiNemIllikBele = new Button();
             SuspendLayout();
             // 
             // label1
@@ -77,17 +78,30 @@
             buttonHazankTajain.Location = new Point(55, 108);
             buttonHazankTajain.Margin = new Padding(2, 3, 2, 3);
             buttonHazankTajain.Name = "buttonHazankTajain";
-            buttonHazankTajain.Size = new Size(201, 33);
+            buttonHazankTajain.Size = new Size(201, 36);
             buttonHazankTajain.TabIndex = 9;
             buttonHazankTajain.Text = "Hazánk Tájain";
             buttonHazankTajain.UseVisualStyleBackColor = true;
             buttonHazankTajain.Click += buttonHazankTajain_Click;
+            // 
+            // buttonKiNemIllikBele
+            // 
+            buttonKiNemIllikBele.Anchor = AnchorStyles.None;
+            buttonKiNemIllikBele.Location = new Point(55, 150);
+            buttonKiNemIllikBele.Margin = new Padding(2, 3, 2, 3);
+            buttonKiNemIllikBele.Name = "buttonKiNemIllikBele";
+            buttonKiNemIllikBele.Size = new Size(201, 36);
+            buttonKiNemIllikBele.TabIndex = 10;
+            buttonKiNemIllikBele.Text = "Ki nem illik bele?";
+            buttonKiNemIllikBele.UseVisualStyleBackColor = true;
+            buttonKiNemIllikBele.Click += buttonKiNemIllikBele_Click;
             // 
             // tortenelmiKvizKakukktojas
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(314, 303);
+            Controls.Add(buttonKiNemIllikBele);
             Controls.Add(buttonHazankTajain);
             Controls.Add(buttonABuvosHetesSzam);
             Controls.Add(buttonVissza);
@@ -111,5 +125,6 @@
         private Button buttonVissza;
         private Button buttonABuvosHetesSzam;
         private Button buttonHazankTajain;
+        private Button buttonKiNemIllikBele;
     }
 }

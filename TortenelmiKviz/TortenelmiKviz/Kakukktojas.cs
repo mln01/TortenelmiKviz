@@ -29,5 +29,12 @@
             HT.Show();
             this.Enabled = false;
         }
+
+        private void buttonKiNemIllikBele_Click(object sender, EventArgs e)
+        {
+            Form KNIB = new KiNemIllikBele(this);
+            KNIB.Show();
+            this.Enabled = false;
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace TortenelmiKviz
 {
-    partial class HazankTajain
+    partial class KiNemIllikBele
     {
         /// <summary>
         /// Required designer variable.
@@ -48,44 +48,47 @@
             // 
             progressBar1.Anchor = AnchorStyles.None;
             progressBar1.ForeColor = Color.DarkSeaGreen;
-            progressBar1.Location = new Point(42, 126);
+            progressBar1.Location = new Point(44, 128);
             progressBar1.Margin = new Padding(4);
             progressBar1.Maximum = 7;
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(338, 23);
-            progressBar1.TabIndex = 19;
+            progressBar1.TabIndex = 27;
             // 
             // Vissza
             // 
             Vissza.Anchor = AnchorStyles.None;
-            Vissza.Location = new Point(319, 14);
+            Vissza.Font = new Font("Segoe UI", 12F);
+            Vissza.Location = new Point(320, 9);
             Vissza.Margin = new Padding(4);
             Vissza.Name = "Vissza";
             Vissza.Size = new Size(98, 27);
-            Vissza.TabIndex = 18;
+            Vissza.TabIndex = 26;
             Vissza.Text = "Vissza";
             Vissza.UseVisualStyleBackColor = true;
-            Vissza.Click += Vissza_Click_1;
+            Vissza.Click += Vissza_Click;
             // 
             // scoreLabel
             // 
             scoreLabel.Anchor = AnchorStyles.None;
             scoreLabel.AutoSize = true;
-            scoreLabel.Location = new Point(14, 372);
+            scoreLabel.Font = new Font("Segoe UI", 12F);
+            scoreLabel.Location = new Point(16, 372);
             scoreLabel.Margin = new Padding(4, 0, 4, 0);
             scoreLabel.Name = "scoreLabel";
             scoreLabel.Size = new Size(80, 21);
-            scoreLabel.TabIndex = 17;
+            scoreLabel.TabIndex = 25;
             scoreLabel.Text = "Eredmeny";
             // 
             // retryButton
             // 
             retryButton.Anchor = AnchorStyles.None;
-            retryButton.Location = new Point(316, 372);
+            retryButton.Font = new Font("Segoe UI", 12F);
+            retryButton.Location = new Point(320, 372);
             retryButton.Margin = new Padding(4);
             retryButton.Name = "retryButton";
-            retryButton.Size = new Size(97, 29);
-            retryButton.TabIndex = 16;
+            retryButton.Size = new Size(98, 29);
+            retryButton.TabIndex = 24;
             retryButton.Text = "Újrakezdés";
             retryButton.UseVisualStyleBackColor = true;
             retryButton.Click += retryButton_Click;
@@ -93,11 +96,12 @@
             // nextButton
             // 
             nextButton.Anchor = AnchorStyles.None;
-            nextButton.Location = new Point(318, 372);
+            nextButton.Font = new Font("Segoe UI", 12F);
+            nextButton.Location = new Point(320, 372);
             nextButton.Margin = new Padding(4);
             nextButton.Name = "nextButton";
             nextButton.Size = new Size(95, 29);
-            nextButton.TabIndex = 15;
+            nextButton.TabIndex = 23;
             nextButton.Text = "Következő";
             nextButton.UseVisualStyleBackColor = true;
             nextButton.Click += nextButton_Click;
@@ -110,12 +114,13 @@
             choicesGroupBox.Controls.Add(choiceRadioButton3);
             choicesGroupBox.Controls.Add(choiceRadioButton2);
             choicesGroupBox.Controls.Add(choiceRadioButton1);
-            choicesGroupBox.Location = new Point(16, 157);
+            choicesGroupBox.Font = new Font("Segoe UI", 12F);
+            choicesGroupBox.Location = new Point(18, 157);
             choicesGroupBox.Margin = new Padding(4);
             choicesGroupBox.Name = "choicesGroupBox";
             choicesGroupBox.Padding = new Padding(4);
             choicesGroupBox.Size = new Size(399, 207);
-            choicesGroupBox.TabIndex = 14;
+            choicesGroupBox.TabIndex = 22;
             choicesGroupBox.TabStop = false;
             choicesGroupBox.Text = "Valasztási Lehetőségek";
             // 
@@ -123,7 +128,8 @@
             // 
             choiceRadioButton5.Anchor = AnchorStyles.None;
             choiceRadioButton5.AutoSize = true;
-            choiceRadioButton5.Location = new Point(26, 163);
+            choiceRadioButton5.Font = new Font("Segoe UI", 12F);
+            choiceRadioButton5.Location = new Point(26, 162);
             choiceRadioButton5.Margin = new Padding(4);
             choiceRadioButton5.Name = "choiceRadioButton5";
             choiceRadioButton5.Size = new Size(72, 25);
@@ -136,7 +142,8 @@
             // 
             choiceRadioButton4.Anchor = AnchorStyles.None;
             choiceRadioButton4.AutoSize = true;
-            choiceRadioButton4.Location = new Point(26, 130);
+            choiceRadioButton4.Font = new Font("Segoe UI", 12F);
+            choiceRadioButton4.Location = new Point(26, 129);
             choiceRadioButton4.Margin = new Padding(4);
             choiceRadioButton4.Name = "choiceRadioButton4";
             choiceRadioButton4.Size = new Size(72, 25);
@@ -149,7 +156,8 @@
             // 
             choiceRadioButton3.Anchor = AnchorStyles.None;
             choiceRadioButton3.AutoSize = true;
-            choiceRadioButton3.Location = new Point(26, 97);
+            choiceRadioButton3.Font = new Font("Segoe UI", 12F);
+            choiceRadioButton3.Location = new Point(26, 96);
             choiceRadioButton3.Margin = new Padding(4);
             choiceRadioButton3.Name = "choiceRadioButton3";
             choiceRadioButton3.Size = new Size(72, 25);
@@ -162,7 +170,8 @@
             // 
             choiceRadioButton2.Anchor = AnchorStyles.None;
             choiceRadioButton2.AutoSize = true;
-            choiceRadioButton2.Location = new Point(26, 64);
+            choiceRadioButton2.Font = new Font("Segoe UI", 12F);
+            choiceRadioButton2.Location = new Point(26, 63);
             choiceRadioButton2.Margin = new Padding(4);
             choiceRadioButton2.Name = "choiceRadioButton2";
             choiceRadioButton2.Size = new Size(72, 25);
@@ -175,7 +184,8 @@
             // 
             choiceRadioButton1.Anchor = AnchorStyles.None;
             choiceRadioButton1.AutoSize = true;
-            choiceRadioButton1.Location = new Point(26, 31);
+            choiceRadioButton1.Font = new Font("Segoe UI", 12F);
+            choiceRadioButton1.Location = new Point(26, 30);
             choiceRadioButton1.Margin = new Padding(4);
             choiceRadioButton1.Name = "choiceRadioButton1";
             choiceRadioButton1.Size = new Size(72, 25);
@@ -188,28 +198,29 @@
             // 
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.Location = new Point(16, 50);
+            label2.Font = new Font("Segoe UI", 12F);
+            label2.Location = new Point(18, 40);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(401, 63);
-            label2.TabIndex = 13;
-            label2.Text = "    Ezzel a feladatsorral ellenőrizhetjük önmagunkat arról,\r\nmennyire ismerjük a régi és az új Magyarország tájait.\r\n    Hol van a felsorolásban a kukukktojás?";
+            label2.Size = new Size(385, 84);
+            label2.TabIndex = 21;
+            label2.Text = "Öt-öt törénelmi személyiséget, műemléket, vagy más \r\nalkotást találsz egy-egy csoportban. Egy van közöttük, \r\naki más korban élt, vagy más ok miatt nem illik a több\r\n-iek közé. Keresd a kakukktojást!";
             // 
             // label1
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            label1.Location = new Point(13, 9);
+            label1.Location = new Point(15, 9);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(166, 32);
-            label1.TabIndex = 12;
-            label1.Text = "Hazánk Tájain";
+            label1.Size = new Size(204, 32);
+            label1.TabIndex = 20;
+            label1.Text = "Ki Nem Illik Bele?";
             // 
-            // HazankTajain
+            // KiNemIllikBele
             // 
-            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(434, 411);
             Controls.Add(progressBar1);
@@ -220,13 +231,10 @@
             Controls.Add(choicesGroupBox);
             Controls.Add(label2);
             Controls.Add(label1);
-            Font = new Font("Segoe UI", 12F);
-            Margin = new Padding(4);
             MinimumSize = new Size(450, 450);
-            Name = "HazankTajain";
+            Name = "KiNemIllikBele";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Történelem Kvíz - Hazánk Tájain";
-            Load += HazankTajain_Load;
+            Text = "KiNemIllikBele";
             choicesGroupBox.ResumeLayout(false);
             choicesGroupBox.PerformLayout();
             ResumeLayout(false);
