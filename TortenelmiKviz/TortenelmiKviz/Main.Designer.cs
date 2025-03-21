@@ -79,7 +79,7 @@
             buttonUralkodojatek.Location = new Point(66, 165);
             buttonUralkodojatek.Margin = new Padding(2, 3, 2, 3);
             buttonUralkodojatek.Name = "buttonUralkodojatek";
-            buttonUralkodojatek.Size = new Size(247, 35);
+            buttonUralkodojatek.Size = new Size(247, 32);
             buttonUralkodojatek.TabIndex = 6;
             buttonUralkodojatek.Text = "Uralkodójáték ínyenceknek";
             buttonUralkodojatek.UseVisualStyleBackColor = true;
