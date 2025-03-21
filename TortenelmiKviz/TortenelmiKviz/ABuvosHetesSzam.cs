@@ -13,6 +13,12 @@
             InitializeComponent();
             InitializeQuiz();
             this.Kakukk = Kakukk;
+            this.FormClosing += ABuvosHetesSzam_FormClosing;
+        }
+
+        private void ABuvosHetesSzam_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Kakukk.Enabled = true; // Re-enable the previous form
         }
 
         private void ABuvosHetesSzam_Load(object sender, EventArgs e)

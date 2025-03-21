@@ -8,6 +8,12 @@
         {
             InitializeComponent();
             formMain = Main;
+            this.FormClosing += tortenelmiKvizKakukktojas_FormClosing;
+        }
+
+        private void tortenelmiKvizKakukktojas_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            formMain.Enabled = true; // Re-enable the previous form
         }
 
         private void buttonVissza_Click(object sender, EventArgs e)

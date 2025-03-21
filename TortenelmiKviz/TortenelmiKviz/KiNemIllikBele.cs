@@ -23,6 +23,12 @@ namespace TortenelmiKviz
             InitializeComponent();
             InitializeQuiz();
             this.Kakukk = Kakukk;
+            this.FormClosing += KiNemIllikBele_FormClosing;
+        }
+
+        private void KiNemIllikBele_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Kakukk.Enabled = true; // Re-enable the previous form
         }
 
         private void InitializeQuiz()

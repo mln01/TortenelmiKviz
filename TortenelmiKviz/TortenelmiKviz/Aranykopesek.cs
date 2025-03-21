@@ -15,6 +15,12 @@
             InitializeComponent();
             InitializeQuiz();
             this.Main = Main;
+            this.FormClosing += Aranykopesek_FormClosing;
+        }
+
+        private void Aranykopesek_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Main.Enabled = true; // Re-enable the previous form
         }
 
         private void InitializeQuiz()

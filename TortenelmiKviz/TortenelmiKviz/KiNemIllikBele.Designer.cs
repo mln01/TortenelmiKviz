@@ -119,7 +119,7 @@
             choicesGroupBox.Margin = new Padding(4);
             choicesGroupBox.Name = "choicesGroupBox";
             choicesGroupBox.Padding = new Padding(4);
-            choicesGroupBox.Size = new Size(399, 207);
+            choicesGroupBox.Size = new Size(397, 207);
             choicesGroupBox.TabIndex = 22;
             choicesGroupBox.TabStop = false;
             choicesGroupBox.Text = "Valasztási Lehetőségek";
@@ -129,7 +129,7 @@
             choiceRadioButton5.Anchor = AnchorStyles.None;
             choiceRadioButton5.AutoSize = true;
             choiceRadioButton5.Font = new Font("Segoe UI", 12F);
-            choiceRadioButton5.Location = new Point(26, 162);
+            choiceRadioButton5.Location = new Point(25, 162);
             choiceRadioButton5.Margin = new Padding(4);
             choiceRadioButton5.Name = "choiceRadioButton5";
             choiceRadioButton5.Size = new Size(72, 25);
@@ -143,7 +143,7 @@
             choiceRadioButton4.Anchor = AnchorStyles.None;
             choiceRadioButton4.AutoSize = true;
             choiceRadioButton4.Font = new Font("Segoe UI", 12F);
-            choiceRadioButton4.Location = new Point(26, 129);
+            choiceRadioButton4.Location = new Point(25, 129);
             choiceRadioButton4.Margin = new Padding(4);
             choiceRadioButton4.Name = "choiceRadioButton4";
             choiceRadioButton4.Size = new Size(72, 25);
@@ -157,7 +157,7 @@
             choiceRadioButton3.Anchor = AnchorStyles.None;
             choiceRadioButton3.AutoSize = true;
             choiceRadioButton3.Font = new Font("Segoe UI", 12F);
-            choiceRadioButton3.Location = new Point(26, 96);
+            choiceRadioButton3.Location = new Point(25, 96);
             choiceRadioButton3.Margin = new Padding(4);
             choiceRadioButton3.Name = "choiceRadioButton3";
             choiceRadioButton3.Size = new Size(72, 25);
@@ -171,7 +171,7 @@
             choiceRadioButton2.Anchor = AnchorStyles.None;
             choiceRadioButton2.AutoSize = true;
             choiceRadioButton2.Font = new Font("Segoe UI", 12F);
-            choiceRadioButton2.Location = new Point(26, 63);
+            choiceRadioButton2.Location = new Point(25, 63);
             choiceRadioButton2.Margin = new Padding(4);
             choiceRadioButton2.Name = "choiceRadioButton2";
             choiceRadioButton2.Size = new Size(72, 25);
@@ -185,7 +185,7 @@
             choiceRadioButton1.Anchor = AnchorStyles.None;
             choiceRadioButton1.AutoSize = true;
             choiceRadioButton1.Font = new Font("Segoe UI", 12F);
-            choiceRadioButton1.Location = new Point(26, 30);
+            choiceRadioButton1.Location = new Point(25, 30);
             choiceRadioButton1.Margin = new Padding(4);
             choiceRadioButton1.Name = "choiceRadioButton1";
             choiceRadioButton1.Size = new Size(72, 25);
@@ -234,7 +234,7 @@
             MinimumSize = new Size(450, 450);
             Name = "KiNemIllikBele";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "KiNemIllikBele";
+            Text = "Történelmi Kvíz - Ki Nem Illik Bele?";
             choicesGroupBox.ResumeLayout(false);
             choicesGroupBox.PerformLayout();
             ResumeLayout(false);

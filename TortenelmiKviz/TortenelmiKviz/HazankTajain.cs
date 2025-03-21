@@ -13,6 +13,12 @@
             InitializeComponent();
             InitializeQuiz();
             this.Kakukk = Kakukk;
+            this.FormClosing += HazankTajain_FormClosing;
+        }
+
+        private void HazankTajain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Kakukk.Enabled = true; // Re-enable the previous form
         }
 
         private void HazankTajain_Load(object sender, EventArgs e)
