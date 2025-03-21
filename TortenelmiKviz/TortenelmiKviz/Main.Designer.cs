@@ -31,6 +31,7 @@
             label1 = new Label();
             ButtonKakukktojas = new Button();
             buttonAranykopesek = new Button();
+            buttonUralkodojatek = new Button();
             SuspendLayout();
             // 
             // label1
@@ -71,12 +72,26 @@
             buttonAranykopesek.UseVisualStyleBackColor = true;
             buttonAranykopesek.Click += buttonAranykopesek_Click;
             // 
+            // buttonUralkodojatek
+            // 
+            buttonUralkodojatek.Anchor = AnchorStyles.None;
+            buttonUralkodojatek.AutoSize = true;
+            buttonUralkodojatek.Location = new Point(66, 165);
+            buttonUralkodojatek.Margin = new Padding(2, 3, 2, 3);
+            buttonUralkodojatek.Name = "buttonUralkodojatek";
+            buttonUralkodojatek.Size = new Size(247, 35);
+            buttonUralkodojatek.TabIndex = 6;
+            buttonUralkodojatek.Text = "Uralkodójáték ínyenceknek";
+            buttonUralkodojatek.UseVisualStyleBackColor = true;
+            buttonUralkodojatek.Click += buttonUralkodojatek_Click;
+            // 
             // tortenelmiKvízMain
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(384, 321);
+            Controls.Add(buttonUralkodojatek);
             Controls.Add(buttonAranykopesek);
             Controls.Add(ButtonKakukktojas);
             Controls.Add(label1);
@@ -95,5 +110,6 @@
         private Label label1;
         private Button ButtonKakukktojas;
         private Button buttonAranykopesek;
+        private Button buttonUralkodojatek;
     }
 }

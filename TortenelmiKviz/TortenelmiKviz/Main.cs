@@ -20,5 +20,12 @@ namespace TortenelmiKviz
             Aranykopesek.Show();
             this.Enabled = false;
         }
+
+        private void buttonUralkodojatek_Click(object sender, EventArgs e)
+        {
+            Form UJatek = new Uralkodojatek(this);
+            UJatek.Show();
+            this.Enabled = false;
+        }
     }
 }
